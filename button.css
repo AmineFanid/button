@@ -1,0 +1,29 @@
+header {
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+margin-bottom: 5rem;
+}
+
+main{
+    display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+margin-bottom: 5rem;
+}
+
+#text{
+    text-align: center;
+    background-color: beige;
+}
+
+footer{
+    display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+margin-bottom: 1rem;
+
+}
