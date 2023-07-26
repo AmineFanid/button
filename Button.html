@@ -18,26 +18,18 @@
         <p class="explication">The rest is self-explanatory...hehehe</p>
         </div>
         
-        <button id="bouton" class="bouton">CLICK ME</button>
+        <button onclick="cliqueur()" id="bouton" class="bouton">CLICK ME</button>
+        <br>
+        <p>Clicks: </p>
+        <p id="count">0</p>
     </main>
 
     <footer>
-        <p id="remerciement" class="pied">If you enjoy this quest, you're welcome.</p>
+        <p id="remerciement" class="pied">If you enjoyed this quest, you're welcome.</p>
         <p id="auteur" class="pied">Made by: Amine Fanid</p>
     </footer>
 
-    <script>
-        let score = 0
-        //while(score < 10){
-            if(document.getElementById('bouton').clicked == true)
-            {
-                score++
-                console.log(score) 
-    
-            }
-        //}
-     
+    <script src="buttonJS.js"></script>
 
-    </script>
 </body>
 </html>
